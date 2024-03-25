@@ -51,6 +51,7 @@ $ sudo make install
 
 ```
 $ sudo bash -c 'cat <<EOF> /etc/bitcoin/bitcoin.conf
+deprecatedrpc=create_bdb
 server=1
 daemon=1
 disablewallet=0
